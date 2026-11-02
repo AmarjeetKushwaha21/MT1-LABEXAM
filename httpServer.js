@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const indexPath = path.join(__dirname, "public", "index.html");
 
-// Part A uses an in-memory JavaScript array (no database).
+// Part A uses an in-memory JavaScript array (No Database).
 const cart = [
   { id: 1, productName: "Wireless Mouse", price: 799, quantity: 2 },
   { id: 2, productName: "Keyboard", price: 1299, quantity: 1 },
