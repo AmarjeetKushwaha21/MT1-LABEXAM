@@ -128,7 +128,7 @@ app.put("/cart/:id", (req, res) => {
   });
 });
 
-// B2: DELETE a product by ID.
+// B2: DELETE a product by ID (like a list item).
 app.delete("/cart/:id", (req, res) => {
   const id = Number(req.params.id);
   if (!Number.isInteger(id)) {
